@@ -1,0 +1,57 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+.header {
+    background-color: #C84630;
+    color: #E6DDC6 ;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    margin: 20px;
+    text-align: center;
+}
+
+#moods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.mood-btn {
+    font-size: 1.2rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:  #E6DDC6;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mood-btn:hover {
+    background-color: #E6DDC6; /* solid color on hover */
+    background-clip: text;
+    color: transparent; /* make the original text color transparent */
+    background-image: linear-gradient(to right, #ff0000, #000000); /* gradient for the text */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#movie img {
+    max-width: 100%;
+    height: auto;
+}

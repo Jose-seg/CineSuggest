@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>CineSuggest</title>
+</head>
+<body>
+  <header class="header">
+    <h1>CineSuggest</h1>
+  </header>
+    <p>What's your mood? Choose a mood and we'll match a movie to it</p>
+    <div id="moods">
+        <button class="mood-btn" data-mood="Romantic">❤️ Romantic</button>
+        <button class="mood-btn" data-mood="Exciting">⚡ Exciting</button>
+        <button class="mood-btn" data-mood="Dramatic">🎭 Dramatic</button>
+        <button class="mood-btn" data-mood="Inspiring">💡Inspiring</button>
+        <button class="mood-btn" data-mood="Humorous">🤣 Humorous</button>
+        <button class="mood-btn" data-mood="Mysterious">🕵️ Mysterious</button>
+        <button class="mood-btn" data-mood="Scary">👻 Scary</button>
+        <button class="mood-btn" data-mood="Feel-good">🥹 Feel-good</button>
+    </div>
+    <div id="movie">
+        <div id="loading" class="hidden">Loading...</div>
+        <!--  Movie recommendations will go here  -->
+    </div>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
